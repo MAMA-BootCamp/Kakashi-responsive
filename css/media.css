@@ -5,9 +5,13 @@
   }
   header{
     width: 30%;
-    height: 1100px;
     box-shadow: 0px 8px 16px -2px rgba(0, 0, 0, 0.12);
 
+  }
+  .infoWallet p,i{
+    /* font-size: 25px; */
+  }.infoWallet h1{
+    /* font-size: 35px; */
   }
   .headerText{
     display: flex;
@@ -19,14 +23,14 @@
   }
   .desktopheader{
     display: flex;
-    height: 100%;
+    height: 70%;
     flex-direction: column;
     justify-content: space-evenly;
   }
   .iconFooter{
     flex-direction: row;
     justify-content: space-around;
-    font-size: 40px;
+    font-size: 20px;
     text-align: start;
     color: rgb(113, 113, 202);
   }
@@ -36,7 +40,6 @@
   }
   main{
     width: 100%;
-    margin-top: 200px;
   }
   .twoSection{
     display: flex;
@@ -45,32 +48,33 @@
     flex-wrap: wrap;
   }
   .wallet{
-    width: 600px;
+    width: 350px;
 padding: 50px 35px;
-height: 350px;
+height: 200px;
 border-radius: 20px;
 }
   .reqwest{
     width: 40%;
-    margin-left: 0;
+    /* margin-left: 0 !important; */
     margin: auto;
   }
   .activity{
     width: 75%;
-    font-size: 35px;
+    /* font-size: 35px; */
   }
   .card{
-    height: 250px;
-    width: 220px;
-    padding-top: 50px;
-    margin-left: 5px;
+    /* height: 250px;
+    width: 220px; */
+    /* padding-top: 50px;
+    margin-left: 5px; */
   }
   .card i{
-    font-size: 50px;
-    margin-bottom: 30px;
+    font-size: 20px;
+  }.card h3{
+    font-size: 15px;
   }
   .line{
-    padding: 30px 15px;
+    /* padding: 30px 15px; */
     background-color: rgb(149, 149, 229);
     margin-top: 20px;
   }
