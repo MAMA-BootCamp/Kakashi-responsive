@@ -22,3 +22,106 @@ figcaption img{
   display: flex;
   align-items: flex-end;
 }
+.wallet{
+  display: flex;
+  width: 90%;
+  margin: 34px auto;
+  box-shadow: 0px 8px 16px -2px rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  border-radius: 8px;
+
+
+}
+.infoWallet{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;}
+.infoTop{
+  display: flex;
+  justify-content: space-between;
+}
+.arrowIcon{
+  display: flex;
+  align-items: center;
+}
+.reqwest{
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+
+}
+
+.card{
+  width: 30%;
+  
+  background-color: #ded2f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 12px;
+}
+.card i{
+  font-size: 30px;
+ background-color: white;
+ padding: 17px;
+ border-radius: 50%;
+ margin-bottom: 10px;
+}
+.card h3{
+  font-size: 22px;
+}
+.card:nth-child(2) {
+  background: #d3e1ff;
+}.card:nth-child(3) {
+  background: #fdc9d2;
+}
+
+.activity{
+  margin-top: 50px;
+  width: 82%;
+  margin:60px auto 10px auto;
+}
+.lineShop{
+  display: flex;
+  justify-content: space-between;
+}
+.line{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f4f7fa;
+  padding:  10px;
+  border-radius: 35px;
+  margin-bottom: 10px;
+
+}
+.iconShop{
+  display: flex;
+  align-items: center;
+}
+.iconShop i{
+  margin-right: 15px;
+  background-color: white;
+padding: 10px;
+border-radius: 50%;
+}
+footer{
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 0;
+  border-top:1px solid rgb(109, 106, 106) ;
+}
+.iconFooter{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+.iconFooter i{
+  margin-bottom: 10px;
+}
