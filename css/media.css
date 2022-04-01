@@ -1,0 +1,80 @@
+@media (min-width: 767px) {
+  body{
+    display: flex;
+    width: 100%;
+  }
+  header{
+    width: 30%;
+    height: 1100px;
+    box-shadow: 0px 8px 16px -2px rgba(0, 0, 0, 0.12);
+
+  }
+  .headerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  figcaption{
+    height: 150px;
+  }
+  .desktopheader{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .iconFooter{
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 40px;
+    text-align: start;
+    color: rgb(113, 113, 202);
+  }
+  .iconFooter h5{
+    color: #000;
+    text-align: center;
+  }
+  main{
+    width: 100%;
+    margin-top: 200px;
+  }
+  .twoSection{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .wallet{
+    width: 600px;
+padding: 50px 35px;
+height: 350px;
+border-radius: 20px;
+}
+  .reqwest{
+    width: 40%;
+    margin-left: 0;
+    margin: auto;
+  }
+  .activity{
+    width: 75%;
+    font-size: 35px;
+  }
+  .card{
+    height: 250px;
+    width: 220px;
+    padding-top: 50px;
+    margin-left: 5px;
+  }
+  .card i{
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .line{
+    padding: 30px 15px;
+    background-color: rgb(149, 149, 229);
+    margin-top: 20px;
+  }
+  footer{
+    display: none;
+  }
+}
